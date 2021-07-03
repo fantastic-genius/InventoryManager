@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateInventory renders screen as expected 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#E5E5E5",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    style={
+      Object {
+        "flexGrow": 1,
+        "padding": 16,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginBottom": 16,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            maxLength={30}
+            name="name"
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            placeholder="Name"
+            placeholderTextColor="#718596"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 10,
+                "color": "#627483",
+                "flex": 1,
+                "fontSize": 16,
+                "paddingHorizontal": 10,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 16,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            maxLength={100}
+            multiline={true}
+            name="description"
+            numberOfLines={3}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            placeholder="Description"
+            placeholderTextColor="#718596"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 10,
+                "color": "#627483",
+                "flex": 1,
+                "fontSize": 16,
+                "paddingHorizontal": 10,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 16,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            name="price"
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            placeholder="Price"
+            placeholderTextColor="#718596"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 10,
+                "color": "#627483",
+                "flex": 1,
+                "fontSize": 16,
+                "paddingHorizontal": 10,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 16,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            name="stock"
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            placeholder="Stock"
+            placeholderTextColor="#718596"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 10,
+                "color": "#627483",
+                "flex": 1,
+                "fontSize": 16,
+                "paddingHorizontal": 10,
+              }
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#7E42F5",
+              "borderRadius": 10,
+              "marginTop": 24,
+              "opacity": 1,
+              "paddingHorizontal": 40,
+              "paddingVertical": 16,
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Add
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

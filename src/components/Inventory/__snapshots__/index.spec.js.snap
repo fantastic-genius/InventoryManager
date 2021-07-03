@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inventory renders component as expected 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 10,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginBottom": 16,
+      "opacity": 1,
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingRight": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#212C3D",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "lineHeight": 22,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#627483",
+          "fontSize": 12,
+          "fontWeight": "400",
+          "lineHeight": 20,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#212C3D",
+          "fontSize": 14,
+          "fontWeight": "600",
+          "lineHeight": 20,
+        }
+      }
+    >
+      NGNundefined
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#627483",
+          "fontSize": 12,
+          "fontWeight": "500",
+          "lineHeight": 20,
+        }
+      }
+    >
+      undefined peice
+    </Text>
+  </View>
+</View>
+`;
